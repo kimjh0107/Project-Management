@@ -2,9 +2,9 @@
 ### 1. Pyenv - python version management 
 ### 2. Poetry - package manager + virtualenv 
 ### 3. Project Structure 
-### Git init 
-### Github Connection 
-
+#### 4. Git init 
+### 5. Github Connection 
+### 6. Github Upload 
 ## Contents 
 1. Pyenv - python version 관리 
     
@@ -125,5 +125,20 @@
     git push --set-upstream origin main     
     ~~~
 
-    * git status : 새롭게 생선된 파일 확인 
-    * git add REAME.md : 변경된 파일 add
+6. 변경된 사항 Upload 
+    i. git status : 새롭게 생성한 파일 확인 
+    ~~~
+    git status 
+    ~~~
+    ii. git add [updataed file] : updataed 된 파일 add 
+    ~~~
+    git add README.md 
+    ~~~
+    iii. git commit 
+    ~~~
+    git commit -m "second_commit"
+    ~~~
+    iv. git push 
+    ~~~
+    git push 
+    ~~~
