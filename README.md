@@ -1,3 +1,11 @@
+# Start Python Project 
+### 1. Pyenv - python version management 
+### 2. Poetry - package manager + virtualenv 
+### 3. Project Structure 
+### Git init 
+### Github Connection 
+
+## Contents 
 1. Pyenv - python version 관리 
     
     i. 설치 
@@ -93,5 +101,29 @@
 4. Git commit workflow  
     i. git init 
     ~~~
-
+    git init 
     ~~~ 
+    ii. git add 
+    ~~~
+    git add . 
+    ~~~
+    iii. git commit 
+    ~~~
+    git commit -m "commit message" 
+    ~~~
+5. Github 연결 
+    i. git remote add origin [https:~]
+    ~~~
+    git remote add origin https://github.com/kimjh0107/Project-Protocol-.git
+    ~~~
+    ii. git branch -M main 
+    ~~~
+    git branch -M main 
+    ~~~
+    iii. git push
+    ~~~
+    git push --set-upstream origin main     
+    ~~~
+
+    * git status : 새롭게 생선된 파일 확인 
+    * git add REAME.md : 변경된 파일 add
