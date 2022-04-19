@@ -2,7 +2,7 @@
 ### 1. Pyenv - python version management 
 ### 2. Poetry - package manager + virtualenv 
 ### 3. Project Structure 
-#### 4. Git init 
+### 4. Git init 
 ### 5. Github Connection 
 ### 6. Github Upload 
 ## Contents 
