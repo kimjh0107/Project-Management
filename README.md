@@ -143,6 +143,35 @@
     git push 
     ~~~
 
+7. .gitignore 파일 관리 
+   - 업로드에 제외하고자 하는 파일들에 대해서 관리 
+    ~~~
+    **/__pycache__/
+    **/.ipynb_checkpoints/
+    .venv/
+    data/
+    log/
+    mlruns/
+    .DS_Store
+    explore/
+    code/
+    .env
+     ~~~
+
+8. Version 기록 
+    ~~~
+    pyenv shell 3.9.12
+    pyenv local 3.9.12
+    pip list
+    pip freeze > requirements.txt
+    ~~~
+
+
++ Github rm file - git status에서의 파일은 삭제되지만, 실제로 파일은 그대로 있는 것 확인 가능 
+    ~~~
+    git rm --cache src/__pycache__/
+    ~~~
+
 +  GitHub push 오류 [hint: 'git pull ...') before pushing again.]
     ~~~
     git push -u origin 
