@@ -175,6 +175,7 @@
 +  GitHub push 오류 [hint: 'git pull ...') before pushing again.]
     ~~~
     git push -u origin 
+    git push -u origin main 
     ~~~
 
 +  GitHub push token 오류 해결 : 아래 블로그 참고 
